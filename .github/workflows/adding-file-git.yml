@@ -22,6 +22,6 @@ jobs:
         git commit -m "Add sample text file"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT_FOR_REPO }}
         
 
